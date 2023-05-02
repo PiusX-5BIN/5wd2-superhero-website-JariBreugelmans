@@ -1,34 +1,188 @@
-#navigatiebalk{
-    
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+
+body {
+    background: #fefefe;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px ;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe;
+}
+.nav {
+    display: none;
+}
+
+
+#navigatiebalk ul{
+   display: flex; 
+}
+#navigatiebalk ul li a {
+    display: block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 0 5px;
 }
 
 .Venom-banner{
-
-    margin: 0px;
-    width: 1255px;
-    height: 300px;
-
+    position: relative;
+    width: 1324.5px;
+    left: -680px;
+    top: 310px;
+}
+.Info {
+    position: relative;
+    left: -1700px;
+    top: 650px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:700px) {
-
+.text-container {
+    position: relative;
+}
+.text-container p {
+    position: absolute;
+    top: 700px;
+    left: -1650px;
+    
 }
     
+    
+
+
+.Profiel {
+    position: relative;
+    top: 1000px;
+
+}
+.Profiel #Profiel-nav {
+    text-align: center;
+}
+.Venom-profiel {
+    position: relative;
+    left: 400px;
+    width: 500px;
+    margin-top: 50px;
+}
+.caption-venom {
+    text-align: center;
+}
+.Kop-Venom-Profiel{
+    text-align: center;
+    margin: 30px;
+}
+.anti-superheld {
+    text-align: center;
+}
+.profiel-achtergrond {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+.Venom-achtergrond {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.Getuigenissen {
+    position: relative;
+    top: 1100px;
+}
+.Getuigenissen #Getuigenissen-nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.Riot-ervaringen {
+    text-align: center;
+}
+.Riot-foto {
+    width: 500px;
+    margin-top: 30px;
+}
+.caption-riot {
+    margin-bottom: 30px;
+}
+
+.Carnage-ervaringen {
+    text-align: center;
+    
+}
+.kop-carnage {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.carnage-foto {
+    width: 500px;
+}
+.caption-carnage {
+    margin-bottom: 30px;
+}
+
+.Anne-ervaringen {
+    text-align: center;
+}
+.kop-anne {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.anne-foto {
+    height: 400px;
+}
+.caption-anne {
+    margin-bottom: 30px;
+}
+
+.Mulligan-ervaringen {
+    text-align: center;
+}
+.kop-mulligan {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.mulligan-foto {
+    height: 400px;
+}
+.caption-mulligan {
+    margin-bottom: 30px;
+}
+
+ #Onderkant {
+    text-align: center;
+    position: relative;
+    top: 1200px;
+ }
+ #ContactUs-nav {
+    margin-bottom: 100px;
+ }
+ .contactInfo {
+    margin-bottom: 50px;
+ }
+
+@media (max-width:400px) {
+    .Getuigenissen {
+        position: relative;
+        left: 450px;    
+    }
+    #Onderkant {
+        position: relative;
+        left: 450px;
+    }
+}    
+
+

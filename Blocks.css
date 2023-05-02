@@ -1,0 +1,43 @@
+@media (max-width:400px) {
+    .Profiel{
+        text-align: center;
+    }
+    .Profiel #Profiel-nav {
+        padding-left: 500px;
+        font-size: 70px;
+    }
+    .caption-venom {
+        padding-left: 500px;
+        text-align: center;
+    }
+    .Kop-Venom-Profiel{
+        padding-left: 500px;
+        text-align: center;
+        font-size: 50px;
+        margin: 30px;
+    }
+    .anti-superheld {
+        position: relative;
+        left: 450px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .profiel-achtergrond {
+        position: relative;
+        left: 450px;
+        font-size: 50px;
+        margin: 30px;
+    }
+    .Venom-achtergrond {
+        position: relative;
+        left: 450px;
+        
+    
+    }
+    
+    body {
+        background: black;
+        color: #fefefe;
+        
+    }
+}

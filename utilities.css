@@ -1,0 +1,121 @@
+body {
+    background: #fefefe;
+}
+header {
+    background: black;
+    display: flex;
+}
+#navigatiebalk ul li a {
+    color: #fefefe;
+    font-size: 20px;
+    transition: 0.2s;
+}
+#navigatiebalk ul li a:hover {
+    color: black;
+    background: #fefefe;
+
+}
+#navigatiebalk ul li a.home {
+    color: black;
+    background: #fefefe;
+}
+.Info {
+    color: black;
+    font-size: 35px;
+}
+.text-container p {
+    font-size: 25px;
+}
+.Profiel {
+    color: #fefefe;
+    background-color: black;
+}
+.Profiel #Profiel-nav {
+    font-size: 70px;
+}
+.Kop-Venom-Profiel{
+    font-size: 50px;
+}
+.anti-superheld {
+    font-weight: bold;
+    font-size: 20px;
+}
+.profiel-achtergrond {
+    font-size: 50px;
+}
+.Venom-achtergrond {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Getuigenissen #Getuigenissen-nav {
+    font-size: 70px;
+}
+
+.kop-riot {
+    font-size: 50px;
+}
+.Riot-ervaringen {
+    background-color: black;
+    color: #fefefe;
+}
+
+.getuigenis-riot {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Carnage-ervaringen {
+    background-color: black;
+    color: #fefefe;
+    
+}
+.kop-carnage {
+    font-size: 50px;
+}
+
+
+.getuigenis-carnage {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Anne-ervaringen {
+    background-color: black;
+    color: #fefefe;
+}
+.kop-anne {
+    font-size: 50px;
+}
+
+
+.getuigenis-anne {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Mulligan-ervaringen {
+    background-color: black;
+    color: #fefefe;
+}
+.kop-mulligan {
+    font-size: 50px;
+}
+
+
+.getuigenis-mulligan {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ #Onderkant {
+    background-color:black;
+    color: #fefefe;
+ }
+ #ContactUs-nav {
+    font-size: 70px;
+ }
+ 
+
+
+
+
+
